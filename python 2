@@ -1,0 +1,4 @@
+A=YASH
+B=TOBER
+C=A+B
+print(C)
