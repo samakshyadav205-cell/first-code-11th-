@@ -1,0 +1,19 @@
+A = int(input('enter a number: '))
+B = int(input('enter a number: '))
+c = input('+ - * / choose operation: ')
+
+d = A + B
+e = A - B
+f = A * B
+g = A / B
+
+if c == '+':
+    print(d)
+elif c == '-':
+    print(e)
+elif c == '*':
+    print(f)
+elif c == '/':
+    print(g)
+else:
+    print("Invalid operation")
